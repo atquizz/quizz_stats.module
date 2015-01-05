@@ -33,7 +33,7 @@ function quizz_stats_permission() {
  * Implements hook_menu().
  */
 function quizz_stats_menu() {
-  $items['admin/quiz/reports/stats/creator'] = array(
+  $items['admin/quizz/reports/stats/creator'] = array(
       'title'            => 'Quiz Statistics',
       'description'      => 'Generates a report on quiz results for quiz creators.',
       'file'             => 'quizz_stats.admin.inc',
